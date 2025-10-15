@@ -9,9 +9,8 @@ def safe_divide(numerator, denominator):
     except Exception as e: 
         print(f"An unexpected error occurred: {e}") 
 # Demonstrating error handling 
-print("\n--- Error Handling Demonstration ---") 
-Date: Roll No.:           
-Programming with C++ Lab                                                                                     Page No.:                   
+print("\n--- Error Handling Demonstration ---")            
+Programming with C++ Lab                                                                                                 
 safe_divide(10, 2) 
 safe_divide(10, 0) 
 safe_divide(5, "abc")
