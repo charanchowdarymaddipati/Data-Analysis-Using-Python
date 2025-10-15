@@ -1,9 +1,8 @@
 import numpy as np 
 arr = np.array([1, 2, 2, 3, 4, 4, 4, 5]) 
 print("Original array:", arr) 
-print("\nUsing repr():") 
-Date: Roll No.:           
-Programming with C++ Lab                                                                                     Page No.:                   
+print("\nUsing repr():")         
+Programming with C++ Lab                                                                                                   
 print(repr(arr)) 
 print("\nUsing count():") 
 arr_list = arr.tolist() 
