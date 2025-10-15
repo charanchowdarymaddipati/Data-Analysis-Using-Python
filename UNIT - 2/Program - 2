@@ -8,9 +8,8 @@ class Animal:
         return "The animal moves around" 
 # Derived Class - cat 
 class cat(Animal): 
-    def speak(self): 
-Date: Roll No.:           
-Programming with C++ Lab                                                                                     Page No.:                   
+    def speak(self):           
+Programming with C++ Lab                                                                                                    
         return f"{self.name} says: Meow! Meow!" 
     def move(self): 
         return f"{self.name} runs quietly." 
